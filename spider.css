@@ -1,5 +1,9 @@
 html {
-    background: #ff785a;
+    background-image: url('web.jpg?raw=true');
+    background-repeat: no-repeat;     
+    background-size: cover;            
+    background-position: center;       
+    background-attachment: fixed;    
 }
 
 html:hover .spider {

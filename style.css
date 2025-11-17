@@ -168,8 +168,8 @@ body {
 
 /* Lenses */
 #glasses .lens {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border: 4px solid #252c49;
     border-radius: 50%;
     background: transparent;

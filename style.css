@@ -7,14 +7,16 @@ body {
     align-items: center;
     margin: 0;
     background-image: url('witch.jpg');
+    background-repeat: no-repeat;     
+    background-size: cover;            
+    background-position: center;       
+    background-attachment: fixed;  
 }
 
 #container {
     width: 400px;
     height: 400px;
     padding: 0;
-    box-sizing: border-box;
-    background: #6f4269;
 }
 
 *:after,

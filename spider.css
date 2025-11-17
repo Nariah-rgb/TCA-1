@@ -6,14 +6,6 @@ html:hover .spider {
     top: -120%;
 }
 
-.spiderweb {
-    background: #fff;
-    width: 2px;
-    height: 200px;
-    margin-left: 49px;
-    transition: 1s ease-in-out;
-}
-
 .spider {
     position: absolute;
     display: inline-block;
@@ -21,6 +13,14 @@ html:hover .spider {
     left: 30%;
     animation: swing 2s infinite;
     transform-origin: top;
+    transition: 1s ease-in-out;
+}
+
+.spider .spiderweb {
+    width: 2px;
+    height: 200px;
+    margin-left: 49px;
+    background: rgba(255,255,255, .7);
 }
 
 .spider .body {
@@ -59,12 +59,6 @@ html:hover .spider {
     animation: look 8s infinite;
 }
 
-.spider .legs {
-    position: absolute;
-    bottom: -10%;
-    z-index: -1;
-}
-
 .spider .legs .leg {
     width: 80px;
     height: 40px;
@@ -72,6 +66,12 @@ html:hover .spider {
     border: 5px solid transparent;
     border-top-color: #000;
     border-radius: 40px 40px 0 0;
+}
+
+.spider .legs {
+    position: absolute;
+    bottom: -10%;
+    z-index: -1;
 }
 
 .spider .legs.left{

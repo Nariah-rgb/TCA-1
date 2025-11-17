@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background: #6f4269;
+    background-image: url('witch.jpg');
 }
 
 #container {

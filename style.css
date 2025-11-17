@@ -191,14 +191,14 @@ body {
 /* Wizard Hat */
 #hat {
     position: absolute;
-    top: -60px;               /* above the head */
+    top: -60px;               
     left: 50%;
-    transform: translateX(-50%) rotate(-10deg); /* slight tilt */
+    transform: translateX(-50%) rotate(-10deg);
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 80px solid #2b2b72; /* hat color */
+    border-bottom: 80px solid #2b2b72; 
     z-index: 10;
 }
 
@@ -206,11 +206,11 @@ body {
 #hat::after {
     content: '';
     position: absolute;
-    top: 60px;               /* slightly below triangle */
+    top: 60px;               
     left: 50%;
     transform: translateX(-50%);
     width: 120px;
     height: 10px;
-    background: #1e1e50;     /* darker brim */
+    background: #1e1e50;    
     border-radius: 50%;
 }

@@ -140,50 +140,11 @@ html:hover .spider {
     border-radius: 5px;
   }
 
- .corner-web {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    width: 60px;
-    height: 60px;
+ .spider-right {
+    left: 70%;       /* position it more to the right */
+    animation-delay: 1s; /* optional: stagger the swing */
 }
 
-.corner-web .line {
-    position: absolute;
-    background: rgba(255,255,255,0.7);
-}
-
-.corner-web .line.vertical {
-    width: 2px;
-    height: 60px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.corner-web .line.diagonal1 {
-    width: 2px;
-    height: 60px;
-    bottom: 0;
-    left: 50%;
-    transform-origin: bottom center;
-    transform: translateX(-50%) rotate(45deg);
-}
-
-.corner-web .line.diagonal2 {
-    width: 2px;
-    height: 60px;
-    bottom: 0;
-    left: 50%;
-    transform-origin: bottom center;
-    transform: translateX(-50%) rotate(-45deg);
-}
-
-.corner-web .line.diagonal3 {
-    width: 2px;
-    height: 40px;
-    bottom: 20px;
-    left: 50%;
-    transform-origin: bottom center;
-    transform: translateX(-50%) rotate(90deg);
+.spider-right .spiderweb {
+    margin-left: 49px; /* same as the first spider */
 }

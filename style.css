@@ -154,35 +154,34 @@ body {
     border-radius: 5px;
   }
 
-  /* GLASSES CONTAINER */
-#glasses {
+  #glasses {
     position: absolute;
-    top: 80px;          /* adjust this to line up with eyes */
+    top: 90px;           /* adjust to line up with eyes */
     left: 50%;
     transform: translateX(-50%);
-    width: 90px;        /* width between lenses */
+    width: 90px;
     height: 40px;
     display: flex;
     justify-content: space-between;
     pointer-events: none;
 }
 
-/* LENSES */
+/* Lenses */
 #glasses .lens {
-    width: 30px;        /* match eye size */
+    width: 30px;
     height: 30px;
     border: 4px solid #252c49;
     border-radius: 50%;
     background: transparent;
 }
 
-/* BRIDGE */
+/* Bridge */
 #glasses::before {
     content: '';
     position: absolute;
-    top: 13px;          /* vertically center between lenses */
+    top: 13px;
     left: 50%;
-    width: 20px;        /* width of bridge */
+    width: 20px;
     height: 4px;
     background: #252c49;
     transform: translateX(-50%);

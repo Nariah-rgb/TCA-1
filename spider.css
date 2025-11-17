@@ -57,6 +57,10 @@ html:hover .spider {
     margin: 55%;
     border-radius: 50%;
     animation: look 8s infinite;
+    position: absolute;
+     transform: translate(-50%, -50%);
+      top: 50%;
+    left: 50%;
 }
 
 .spider .legs .leg {

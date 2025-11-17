@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background: #424f6f;
+    background: #6f4269;
 }
 
 #container {
@@ -14,7 +14,7 @@ body {
     height: 400px;
     padding: 0;
     box-sizing: border-box;
-    background: #424f6f;
+    background: #6f4269;
 }
 
 *:after,
